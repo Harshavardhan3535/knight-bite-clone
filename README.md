@@ -30,6 +30,16 @@ knight-bite-clone/
 
 This project was created to improve frontend development skills by recreating an existing website layout using HTML and CSS.
 
+
+## Learning Note
+
+This project was built manually as part of my frontend learning journey without relying on generated templates or copied repositories.
+
+I later created an AI-assisted version of the same project to compare development approaches, code structure, and implementation techniques.
+
+The purpose of maintaining both versions is to document my learning process and understand the strengths and limitations of AI-assisted development.
+
+
 ## Disclaimer
 
 This project is created for educational and learning purposes only and is not affiliated with Knight Bite.
