@@ -1,0 +1,510 @@
+ *{
+    font-family: sans-serif;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Info{
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px rgba(0, 0, 0, 0.049);
+    padding: 50px 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.285);
+    margin: auto;
+    position: sticky;
+    top: 0%;
+}
+.logo{
+    background: #000;
+    margin-left: 50px;
+}
+.flex{
+    display: flex;
+}
+input {
+    background-color: rgba(0, 0, 0, 0.466);
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
+a{
+    cursor: pointer;
+}
+li{
+    display: list-item;
+    transition: all;
+
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+}
+.nav li {
+    display: inline-block;
+    margin: 0 20px;
+    list-style: none;
+    list-style-position: inside;
+}
+.icon {
+    position: absolute;
+    display: block;
+    right: 30px;
+    justify-content: space-around;
+}
+.icon1 {
+    width: 30px;
+    transition: all ease-out 0.1s;
+    background: url(./Knight-Bite/nav-icon.svg);
+    height: 30px;
+}
+.icon>h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.selected {
+    color: black !important;
+    cursor: default;
+    font-weight: 700 !important;
+    transform: scale(1, 1) !important;
+    position: relative;
+}
+.link {
+    transition: all 0.5s;
+}
+label {
+    cursor: default;
+}
+div {
+    display: block;
+}
+.app-link {
+    justify-content: space-evenly;
+   
+    
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+}
+.bg{
+    background: url(./Knight-Bite/app-link-background.svg);
+    height: 120vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.app-link>h3{
+    color: rgba(255, 255, 255, 0.69);
+    font-family: sans-serif;
+    padding-top: 40vh;
+    font-size: 6em;
+    transition: all .4s;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.storescontainer {
+    display: flex;
+    /*flex-wrap: wrap;*/
+    width: 100%;
+    padding: 0 20px;
+    justify-content: space-evenly;
+    margin: 10px auto;
+    place-items: center;
+}
+.ios-store {
+    min-height: 100px;
+    background: url(./Knight-Bite/ios-store.svg);
+    background-repeat: no-repeat;
+    transform: scale(1.2);
+    background-size: 120px 100px;
+    width: 120px;
+}
+.android-store {
+    min-height: 100px;
+    background: url(./Knight-Bite/google-play-badge.svg);
+    background-repeat: no-repeat;
+    background-size: 120px 100px;
+    transform: scale(1.4);
+    width: 120px;
+}
+.features {
+    margin-top: 0%;
+    margin: 0%;
+    height: 0%;
+}
+.fh1{
+    margin: 0%;
+    font-size: 30px;
+    color: #424242;
+    font-size: 60px;
+    font-weight: 70%;
+    text-align: center;
+    text-transform: uppercase;
+    background: #00000023;
+}
+.featuresDetails{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+    margin: 60px 0;
+    display: flex;
+}
+.featurecontainer{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    text-align: center;
+    width: 150px;
+    display: flex;
+}
+.img{
+    overflow: clip;
+}
+.content{
+    height: 100vh;
+    width: 100%;
+}
+.description{
+    margin: 40px 0;
+    color: #424242;
+    font-size: 20px;
+    text-align: center;
+    width: 180px;
+    text-transform: capitalize;
+}
+.bg2{
+    width: 100%;
+    background-repeat: no-repeat;
+    background: url(./Knight-Bite/bg\ img2);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 1050px;
+}
+.bg2>h3 {
+    color: rgba(245, 245, 245, 0.811);
+    width: 1200px;
+    margin: 0 auto;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+}
+.bg3{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url(./Knight-Bite/bg\ img3);
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 970px;
+}
+.bg3>h3 {
+    padding: 0 10px;
+    margin: auto;
+    text-align: center;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.416);
+    width: 1268px;
+    font-family: sans-serif;
+    font-size: 6em;
+    text-transform: uppercase;
+}
+.footer {
+    padding-top: 50px;
+}
+.footer>h1 {
+    margin-bottom: 40px;
+    color: #424242;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.footer>h1 {
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: #424242;
+}
+.footer-details {
+    display: grid;
+    margin: 40px 50px;
+    grid-template-columns: 300px;
+    justify-content: space-around;
+    align-items: stretch;
+    font-family: Nunito;
+    font-style: normal;
+    column-gap: 20px;
+    font-weight: 300;
+    font-size: 17px;
+    color: #424242;
+}
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 20px;
+}
+.footer h3 {
+    margin-bottom: 40px;
+    color: #424242;
+    font-size: 20px;
+    font-weight: 700;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.footer-details {
+    margin: 40px 50px;
+    grid-template-columns: 300px;
+    justify-content: space-around;
+    align-items: stretch;
+    font-family: Nunito;
+    font-style: normal;
+    column-gap: 20px;
+    font-weight: 300;
+    font-size: 17px;
+    color: #424242;
+    display: grid;
+}
+.mail{
+    height: 40px;
+    width: 40px;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    background: url(./Knight-Bite/email.png);
+}
+.phone {
+    height: 30px;
+    width: 30px;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    background: url(./Knight-Bite/phone.png);
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+    justify-content: space-evenly;
+    place-content: center;
+}
+.email-container {
+    transform: translateX(15px);
+    position: absolute;
+    width: fit-content;
+}
+.footer h3 {
+    margin-bottom: 40px;
+    color: #424242;
+    font-size: 20px;
+    font-weight: 700;
+}
+.profile-tags img {
+    height: 30px;
+    width: 30px;
+}
+.flimg{
+    background: #000000;
+    margin-right: 50px;
+    text-align: center;
+}
+.footer h3 {
+    color: #424242;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.copyright p {
+    font-size: 10px;
+}
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #C77BF4 0%, #FF5672 100%);
+    box-shadow: -5px -5px 19px rgba(0, 0, 0, 0.23);
+    min-height: 50px;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    position: sticky;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+.inner-bgimg1{
+    background: url(./Knight-Bite/inner-banner1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+.inner-h1{
+    color: rgba(255, 255, 255, 0.678);
+    font-size: 3vw;
+    margin-top: 150px;
+    padding-left: 80px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding: 40vh 30px;
+    width: 100%;
+    line-height: 1.5em;
+    text-align: center;
+}
+.grid{
+    margin: 130px 40px;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 70px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    padding: 0 100px;
+    column-gap: 40px;
+}
+.grid1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    font-size: 21px;
+    color: #424242;
+}
+.para1{
+    display: flex;
+    font-size: 21px;
+    color: #424242;
+    justify-content: left;
+    align-items: left;
+}
+.location-h1{
+    color: #424242;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.locations span {
+    font-size: 20px;
+    color: #424242;
+    font-weight: 700;
+}
+.inner3bg{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background: url(https://nrzl4apc.knight-bite.com/main/res/menu/banner.webp);
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+.menu {
+    display: grid;
+    margin-top: 100px;
+    padding: 0 200px;
+    row-gap: 60px;
+    column-gap: 50px;
+    width: 100%;
+    grid-template-columns: repeat(3, 2fr);
+}
+.menu-items h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin: 0 0 15px 0;
+}
+.menu-img{
+    display: flex;
+    min-height: 100px;
+    background: white;
+    text-align: center;
+    place-content: center;
+    margin: 0 0 20px 100px;
+    flex-wrap: nowrap;
+}
+.more-img{
+    display: flex;
+    min-height: 30px;
+    background: white;
+    place-content: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 0 0 0 130px;
+}
+@media (min-width:1px) and (max-width:576px) {
+    .featuresDetails{
+        flex-direction: column;
+    }
+    .menu{
+        grid-template-columns:max-content;
+        justify-content: center;
+        text-align: center;
+        min-height: auto;
+    }
+    .copyright{
+        justify-content: center;
+        position: sticky;
+    }
+}
