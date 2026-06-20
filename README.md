@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-🔗 https://harshavardhan3535.github.io/knight-bite-ai-version/
+🔗 https://harshavardhan3535.github.io/knight-bite-clone/
 
 A static clone of the Knight Bite website built using HTML and CSS as part of frontend development practice.
 
