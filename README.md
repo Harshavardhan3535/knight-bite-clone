@@ -4,7 +4,7 @@ A static clone of the Knight Bite website built using HTML and CSS as part of fr
 
 ## Live Demo
 
-[🌐 Live Demo](https://harshavardhan3535.github.io/knight-bite-ai-version/)
+🔗 https://github.com/Harshavardhan3535/knight-bite-ai-version
 
 ## Features
 
