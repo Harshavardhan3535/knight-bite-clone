@@ -1,5 +1,9 @@
 # Knight Bite Clone
 
+## Live Demo
+
+🔗 https://harshavardhan3535.github.io/knight-bite-ai-version/
+
 A static clone of the Knight Bite website built using HTML and CSS as part of frontend development practice.
 
 ## Features
@@ -12,8 +16,8 @@ A static clone of the Knight Bite website built using HTML and CSS as part of fr
 
 ## Technologies Used
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 
 ## Project Structure
 
